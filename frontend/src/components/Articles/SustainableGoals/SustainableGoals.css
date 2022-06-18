@@ -1,0 +1,16 @@
+.sustainable-goals-container {
+  margin: 0 50px;
+}
+.all-goals {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+
+  align-items: flex-start;
+}
+.all-goals > a {
+  margin: 10px 0;
+  color: green;
+  font-weight: bold;
+  font-size: 19px;
+}

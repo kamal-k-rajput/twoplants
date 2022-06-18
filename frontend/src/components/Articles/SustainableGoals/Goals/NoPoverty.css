@@ -1,0 +1,29 @@
+.no-poverty-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.no-poverty-container > section > div {
+  display: flex;
+  justify-content: space-between;
+}
+.no-poverty-container > section > div > p {
+  width: 75%;
+  text-align: justify;
+}
+@media (max-width: 768px) {
+  .no-poverty-container > section > div {
+    display: flex;
+    flex-direction: column;
+  }
+  .no-poverty-container > section > div > p {
+    width: 100%;
+  }
+  .no-poverty-container > section > div > p {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .no-poverty-container > section > div > img {
+    width: 100%;
+  }
+}

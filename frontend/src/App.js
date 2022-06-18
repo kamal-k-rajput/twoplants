@@ -5,6 +5,8 @@ import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 import { Homepage } from "./components/Homepage/Homepage";
 import { Quotes } from "./components/Quotes/Quotes";
+import { SustainableGoals } from "./components/Articles/SustainableGoals/SustainableGoals";
+import { NoPoverty } from "./components/Articles/SustainableGoals/Goals/NoPoverty";
 
 function App() {
   return (
@@ -13,6 +15,14 @@ function App() {
       <Routes>
         <Route path="" element={<Homepage />}></Route>
         <Route path="/articles" element={<List />}></Route>
+        <Route
+          path="/articles/sustainablegoals"
+          element={<SustainableGoals />}
+        ></Route>
+        <Route
+          path="/articles/sustainablegoals/no-poverty"
+          element={<NoPoverty />}
+        ></Route>
         <Route path="/quotes" element={<Quotes />}></Route>
       </Routes>
 
