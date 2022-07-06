@@ -21,6 +21,8 @@ export const SustainableGoals = () => {
         <Link to="affordable-and-clean-energy">
           GOAL 7: Affordable and Clean Energy
         </Link>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2960092495542092"
+     crossorigin="anonymous"></script>
         <Link to="decent-work-and-economic-growth">
           GOAL 8: Decent Work and Economic Growth
         </Link>

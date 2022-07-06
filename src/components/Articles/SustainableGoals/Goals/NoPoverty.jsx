@@ -46,6 +46,8 @@ export const NoPoverty = () => {
         failure to include and integrate them in all development activities will
         mean failure to achieve the SDGs.
       </p>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2960092495542092"
+     crossorigin="anonymous"></script>
     </div>
   );
 };
